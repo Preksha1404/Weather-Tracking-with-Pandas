@@ -1,0 +1,2 @@
+,city,country,timezone,weather_main,weather_description,temp,feels_like,temp_min,temp_max,pressure,humidity,visibility,wind_speed,sunrise,sunset,timestamp
+0,Ahmedabad,IN,19800,Clouds,overcast clouds,305.74,311.64,305.74,305.74,1003,60,10000,2.59,1756428669,1756474238,1756450203
