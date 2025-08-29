@@ -43,9 +43,11 @@ def get_weather_data(city_name,state_code,country_code,limit):
         "timestamp": weather_data.get("dt"),
     }
 
-    print(weather)
+    # print(type(weather))
+    # print([weather])
 
-    df=pd.DataFrame([weather],columns=weather.keys())
+    df=pd.DataFrame(weather,index=[0])
+    print(df)
 
     file_path = "weather.csv"
     if os.path.exists(file_path):
